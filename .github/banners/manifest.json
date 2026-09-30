@@ -1,0 +1,20 @@
+{
+  "used": [
+    {
+      "slug": "cloud-packet-burst",
+      "description": "Network packets streaming left-to-right across a dark navy background with AWS orange and cyan glowing nodes",
+      "file": ".github/banners/cloud-packet-burst.svg",
+      "created": "2026-04-15",
+      "project": "aws-util",
+      "type": "author"
+    },
+    {
+      "slug": "sdk-circuit-trace",
+      "description": "PCB circuit traces on dark amber background with pulsing junction nodes and sweeping orange trace highlights",
+      "file": ".github/banners/sdk-circuit-trace.svg",
+      "created": "2026-04-15",
+      "project": "aws-util",
+      "type": "project"
+    }
+  ]
+}

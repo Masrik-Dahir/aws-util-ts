@@ -1,0 +1,274 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540">
+  <defs>
+    <linearGradient id="aws-hero-titlebar" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2d2d2d"/>
+      <stop offset="100%" stop-color="#1e1e1e"/>
+    </linearGradient>
+    <linearGradient id="aws-hero-sidebar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+    <linearGradient id="aws-hero-main" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#0a0f1e"/>
+    </linearGradient>
+    <linearGradient id="aws-hero-badge-green" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#064e3b"/>
+      <stop offset="100%" stop-color="#065f46"/>
+    </linearGradient>
+    <linearGradient id="aws-hero-badge-orange" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#7c2d12"/>
+      <stop offset="100%" stop-color="#9a3412"/>
+    </linearGradient>
+    <linearGradient id="aws-hero-badge-blue" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#1e3a5f"/>
+      <stop offset="100%" stop-color="#1d4ed8"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Window chrome -->
+  <rect width="960" height="540" fill="#1e1e1e" rx="8"/>
+  <rect x="0" y="0" width="960" height="32" fill="url(#aws-hero-titlebar)" rx="8"/>
+  <rect x="0" y="16" width="960" height="16" fill="url(#aws-hero-titlebar)"/>
+
+  <!-- Title bar buttons -->
+  <circle cx="16" cy="16" r="6" fill="#ff5f57"/>
+  <circle cx="36" cy="16" r="6" fill="#febc2e"/>
+  <circle cx="56" cy="16" r="6" fill="#28c840"/>
+
+  <!-- Title bar text -->
+  <text x="480" y="21" font-family="'Segoe UI',sans-serif" font-size="11" fill="#888" text-anchor="middle">aws-util — TypeScript AWS SDK Utility Library</text>
+
+  <!-- Sidebar -->
+  <rect x="0" y="32" width="220" height="508" fill="url(#aws-hero-sidebar)"/>
+  <rect x="220" y="32" width="1" height="508" fill="#2a2a4a"/>
+
+  <!-- Sidebar header -->
+  <rect x="0" y="32" width="220" height="40" fill="#0d1025"/>
+  <text x="12" y="57" font-family="'Segoe UI',sans-serif" font-size="12" font-weight="700" fill="#ff9900">aws-util</text>
+  <text x="80" y="57" font-family="'Segoe UI',sans-serif" font-size="10" fill="#666">v2.0.0 · 135 modules</text>
+
+  <!-- Sidebar module list -->
+  <!-- Category: Core -->
+  <text x="12" y="88" font-family="'Segoe UI',sans-serif" font-size="9" fill="#ff9900" font-weight="700" letter-spacing="1">CORE</text>
+  <rect x="0" y="92" width="220" height="20" fill="#1a2540"/>
+  <text x="20" y="106" font-family="'Segoe UI',sans-serif" font-size="11" fill="#a5b4fc">▶ client.ts</text>
+  <text x="20" y="122" font-family="'Segoe UI',sans-serif" font-size="11" fill="#94a3b8">  exceptions.ts</text>
+  <text x="20" y="138" font-family="'Segoe UI',sans-serif" font-size="11" fill="#94a3b8">  index.ts</text>
+
+  <!-- Category: Storage -->
+  <text x="12" y="158" font-family="'Segoe UI',sans-serif" font-size="9" fill="#ff9900" font-weight="700" letter-spacing="1">STORAGE</text>
+  <text x="20" y="174" font-family="'Segoe UI',sans-serif" font-size="11" fill="#94a3b8">  s3.ts</text>
+  <text x="20" y="190" font-family="'Segoe UI',sans-serif" font-size="11" fill="#94a3b8">  storage-ops.ts</text>
+  <text x="20" y="206" font-family="'Segoe UI',sans-serif" font-size="11" fill="#94a3b8">  efs.ts</text>
+  <text x="20" y="222" font-family="'Segoe UI',sans-serif" font-size="11" fill="#94a3b8">  fsx.ts</text>
+
+  <!-- Category: Compute -->
+  <text x="12" y="242" font-family="'Segoe UI',sans-serif" font-size="9" fill="#ff9900" font-weight="700" letter-spacing="1">COMPUTE</text>
+  <text x="20" y="258" font-family="'Segoe UI',sans-serif" font-size="11" fill="#94a3b8">  lambda.ts</text>
+  <text x="20" y="274" font-family="'Segoe UI',sans-serif" font-size="11" fill="#94a3b8">  ec2.ts</text>
+  <text x="20" y="290" font-family="'Segoe UI',sans-serif" font-size="11" fill="#94a3b8">  ecs.ts</text>
+  <text x="20" y="306" font-family="'Segoe UI',sans-serif" font-size="11" fill="#94a3b8">  deployment.ts</text>
+
+  <!-- Category: AI/ML -->
+  <text x="12" y="326" font-family="'Segoe UI',sans-serif" font-size="9" fill="#ff9900" font-weight="700" letter-spacing="1">AI / ML</text>
+  <text x="20" y="342" font-family="'Segoe UI',sans-serif" font-size="11" fill="#94a3b8">  ai-ml-pipelines.ts</text>
+  <text x="20" y="358" font-family="'Segoe UI',sans-serif" font-size="11" fill="#94a3b8">  bedrock.ts</text>
+  <text x="20" y="374" font-family="'Segoe UI',sans-serif" font-size="11" fill="#94a3b8">  sagemaker.ts</text>
+
+  <!-- Category: Security -->
+  <text x="12" y="394" font-family="'Segoe UI',sans-serif" font-size="9" fill="#ff9900" font-weight="700" letter-spacing="1">SECURITY</text>
+  <text x="20" y="410" font-family="'Segoe UI',sans-serif" font-size="11" fill="#94a3b8">  security-ops.ts</text>
+  <text x="20" y="426" font-family="'Segoe UI',sans-serif" font-size="11" fill="#94a3b8">  governance.ts</text>
+  <text x="20" y="442" font-family="'Segoe UI',sans-serif" font-size="11" fill="#94a3b8">  finding-ops.ts</text>
+  <text x="20" y="458" font-family="'Segoe UI',sans-serif" font-size="11" fill="#94a3b8">  iam.ts</text>
+
+  <!-- More modules indicator -->
+  <text x="12" y="494" font-family="'Segoe UI',sans-serif" font-size="10" fill="#555">+ 127 more modules</text>
+
+  <!-- Main content area -->
+  <rect x="221" y="32" width="739" height="508" fill="url(#aws-hero-main)"/>
+
+  <!-- Top tab bar -->
+  <rect x="221" y="32" width="739" height="36" fill="#0d1025"/>
+  <rect x="221" y="32" width="160" height="36" fill="#0f172a"/>
+  <text x="301" y="54" font-family="'Segoe UI',sans-serif" font-size="11" fill="#e2e8f0" text-anchor="middle">s3.ts</text>
+  <rect x="381" y="32" width="1" height="36" fill="#1e293b"/>
+  <text x="461" y="54" font-family="'Segoe UI',sans-serif" font-size="11" fill="#64748b" text-anchor="middle">lambda.ts</text>
+  <rect x="541" y="32" width="1" height="36" fill="#1e293b"/>
+  <text x="621" y="54" font-family="'Segoe UI',sans-serif" font-size="11" fill="#64748b" text-anchor="middle">analytics-pipelines.ts</text>
+
+  <!-- Code editor area -->
+  <!-- Line numbers -->
+  <rect x="221" y="68" width="40" height="440" fill="#0a0f1e"/>
+  <text x="250" y="92" font-family="'Courier New',monospace" font-size="10" fill="#3d4a5c" text-anchor="end">1</text>
+  <text x="250" y="108" font-family="'Courier New',monospace" font-size="10" fill="#3d4a5c" text-anchor="end">2</text>
+  <text x="250" y="124" font-family="'Courier New',monospace" font-size="10" fill="#3d4a5c" text-anchor="end">3</text>
+  <text x="250" y="140" font-family="'Courier New',monospace" font-size="10" fill="#3d4a5c" text-anchor="end">4</text>
+  <text x="250" y="156" font-family="'Courier New',monospace" font-size="10" fill="#3d4a5c" text-anchor="end">5</text>
+  <text x="250" y="172" font-family="'Courier New',monospace" font-size="10" fill="#3d4a5c" text-anchor="end">6</text>
+  <text x="250" y="188" font-family="'Courier New',monospace" font-size="10" fill="#3d4a5c" text-anchor="end">7</text>
+  <text x="250" y="204" font-family="'Courier New',monospace" font-size="10" fill="#3d4a5c" text-anchor="end">8</text>
+  <text x="250" y="220" font-family="'Courier New',monospace" font-size="10" fill="#3d4a5c" text-anchor="end">9</text>
+  <text x="250" y="236" font-family="'Courier New',monospace" font-size="10" fill="#3d4a5c" text-anchor="end">10</text>
+  <text x="250" y="252" font-family="'Courier New',monospace" font-size="10" fill="#3d4a5c" text-anchor="end">11</text>
+  <text x="250" y="268" font-family="'Courier New',monospace" font-size="10" fill="#3d4a5c" text-anchor="end">12</text>
+  <text x="250" y="284" font-family="'Courier New',monospace" font-size="10" fill="#3d4a5c" text-anchor="end">13</text>
+  <text x="250" y="300" font-family="'Courier New',monospace" font-size="10" fill="#3d4a5c" text-anchor="end">14</text>
+  <text x="250" y="316" font-family="'Courier New',monospace" font-size="10" fill="#3d4a5c" text-anchor="end">15</text>
+  <text x="250" y="332" font-family="'Courier New',monospace" font-size="10" fill="#3d4a5c" text-anchor="end">16</text>
+  <text x="250" y="348" font-family="'Courier New',monospace" font-size="10" fill="#3d4a5c" text-anchor="end">17</text>
+  <text x="250" y="364" font-family="'Courier New',monospace" font-size="10" fill="#3d4a5c" text-anchor="end">18</text>
+  <text x="250" y="380" font-family="'Courier New',monospace" font-size="10" fill="#3d4a5c" text-anchor="end">19</text>
+  <text x="250" y="396" font-family="'Courier New',monospace" font-size="10" fill="#3d4a5c" text-anchor="end">20</text>
+  <text x="250" y="412" font-family="'Courier New',monospace" font-size="10" fill="#3d4a5c" text-anchor="end">21</text>
+  <text x="250" y="428" font-family="'Courier New',monospace" font-size="10" fill="#3d4a5c" text-anchor="end">22</text>
+  <text x="250" y="444" font-family="'Courier New',monospace" font-size="10" fill="#3d4a5c" text-anchor="end">23</text>
+  <text x="250" y="460" font-family="'Courier New',monospace" font-size="10" fill="#3d4a5c" text-anchor="end">24</text>
+  <text x="250" y="476" font-family="'Courier New',monospace" font-size="10" fill="#3d4a5c" text-anchor="end">25</text>
+
+  <!-- Syntax-highlighted code: s3.ts -->
+  <!-- import line -->
+  <text x="265" y="92" font-family="'Courier New',monospace" font-size="11" fill="#c792ea">import</text>
+  <text x="315" y="92" font-family="'Courier New',monospace" font-size="11" fill="#e2e8f0">{ S3Client, PutObjectCommand } </text>
+  <text x="530" y="92" font-family="'Courier New',monospace" font-size="11" fill="#c792ea">from</text>
+  <text x="556" y="92" font-family="'Courier New',monospace" font-size="11" fill="#c3e88d">"@aws-sdk/client-s3"</text>
+  <text x="680" y="92" font-family="'Courier New',monospace" font-size="11" fill="#e2e8f0">;</text>
+
+  <text x="265" y="108" font-family="'Courier New',monospace" font-size="11" fill="#c792ea">import</text>
+  <text x="315" y="108" font-family="'Courier New',monospace" font-size="11" fill="#e2e8f0">{ getClient } </text>
+  <text x="415" y="108" font-family="'Courier New',monospace" font-size="11" fill="#c792ea">from</text>
+  <text x="441" y="108" font-family="'Courier New',monospace" font-size="11" fill="#c3e88d">"./client"</text>
+  <text x="509" y="108" font-family="'Courier New',monospace" font-size="11" fill="#e2e8f0">;</text>
+
+  <text x="265" y="124" font-family="'Courier New',monospace" font-size="11" fill="#c792ea">import</text>
+  <text x="315" y="124" font-family="'Courier New',monospace" font-size="11" fill="#e2e8f0">{ wrapAwsError } </text>
+  <text x="430" y="124" font-family="'Courier New',monospace" font-size="11" fill="#c792ea">from</text>
+  <text x="456" y="124" font-family="'Courier New',monospace" font-size="11" fill="#c3e88d">"./exceptions"</text>
+  <text x="562" y="124" font-family="'Courier New',monospace" font-size="11" fill="#e2e8f0">;</text>
+
+  <!-- blank line -->
+
+  <!-- doc comment -->
+  <text x="265" y="156" font-family="'Courier New',monospace" font-size="11" fill="#546e7a">/** Upload a file buffer to S3 and return the object URL. */</text>
+
+  <!-- function signature - highlighted line -->
+  <rect x="261" y="161" width="630" height="16" fill="#1a2540"/>
+  <text x="265" y="172" font-family="'Courier New',monospace" font-size="11" fill="#c792ea">export async function</text>
+  <text x="392" y="172" font-family="'Courier New',monospace" font-size="11" fill="#82aaff">uploadFile</text>
+  <text x="450" y="172" font-family="'Courier New',monospace" font-size="11" fill="#e2e8f0">(</text>
+  <text x="457" y="172" font-family="'Courier New',monospace" font-size="11" fill="#f78c6c">bucket</text>
+  <text x="499" y="172" font-family="'Courier New',monospace" font-size="11" fill="#e2e8f0">: </text>
+  <text x="509" y="172" font-family="'Courier New',monospace" font-size="11" fill="#ffcb6b">string</text>
+  <text x="546" y="172" font-family="'Courier New',monospace" font-size="11" fill="#e2e8f0">, </text>
+  <text x="556" y="172" font-family="'Courier New',monospace" font-size="11" fill="#f78c6c">key</text>
+  <text x="577" y="172" font-family="'Courier New',monospace" font-size="11" fill="#e2e8f0">: </text>
+  <text x="587" y="172" font-family="'Courier New',monospace" font-size="11" fill="#ffcb6b">string</text>
+  <text x="624" y="172" font-family="'Courier New',monospace" font-size="11" fill="#e2e8f0">, </text>
+  <text x="634" y="172" font-family="'Courier New',monospace" font-size="11" fill="#f78c6c">body</text>
+  <text x="658" y="172" font-family="'Courier New',monospace" font-size="11" fill="#e2e8f0">: </text>
+  <text x="668" y="172" font-family="'Courier New',monospace" font-size="11" fill="#ffcb6b">Buffer</text>
+
+  <text x="265" y="188" font-family="'Courier New',monospace" font-size="11" fill="#e2e8f0">  contentType</text>
+  <text x="351" y="188" font-family="'Courier New',monospace" font-size="11" fill="#e2e8f0">?: </text>
+  <text x="369" y="188" font-family="'Courier New',monospace" font-size="11" fill="#ffcb6b">string</text>
+  <text x="406" y="188" font-family="'Courier New',monospace" font-size="11" fill="#e2e8f0">, regionName?: </text>
+  <text x="515" y="188" font-family="'Courier New',monospace" font-size="11" fill="#ffcb6b">string</text>
+  <text x="552" y="188" font-family="'Courier New',monospace" font-size="11" fill="#e2e8f0">): </text>
+  <text x="566" y="188" font-family="'Courier New',monospace" font-size="11" fill="#c792ea">Promise</text>
+  <text x="610" y="188" font-family="'Courier New',monospace" font-size="11" fill="#e2e8f0">&lt;</text>
+  <text x="617" y="188" font-family="'Courier New',monospace" font-size="11" fill="#ffcb6b">string</text>
+  <text x="654" y="188" font-family="'Courier New',monospace" font-size="11" fill="#e2e8f0">&gt; {</text>
+
+  <text x="265" y="204" font-family="'Courier New',monospace" font-size="11" fill="#e2e8f0">  </text>
+  <text x="277" y="204" font-family="'Courier New',monospace" font-size="11" fill="#c792ea">try</text>
+  <text x="302" y="204" font-family="'Courier New',monospace" font-size="11" fill="#e2e8f0"> {</text>
+
+  <text x="265" y="220" font-family="'Courier New',monospace" font-size="11" fill="#e2e8f0">    </text>
+  <text x="289" y="220" font-family="'Courier New',monospace" font-size="11" fill="#c792ea">const</text>
+  <text x="325" y="220" font-family="'Courier New',monospace" font-size="11" fill="#e2e8f0"> client = </text>
+  <text x="393" y="220" font-family="'Courier New',monospace" font-size="11" fill="#82aaff">getClient</text>
+  <text x="449" y="220" font-family="'Courier New',monospace" font-size="11" fill="#e2e8f0">(S3Client, { region: regionName });</text>
+
+  <text x="265" y="236" font-family="'Courier New',monospace" font-size="11" fill="#e2e8f0">    </text>
+  <text x="289" y="236" font-family="'Courier New',monospace" font-size="11" fill="#c792ea">await</text>
+  <text x="325" y="236" font-family="'Courier New',monospace" font-size="11" fill="#e2e8f0"> client.</text>
+  <text x="377" y="236" font-family="'Courier New',monospace" font-size="11" fill="#82aaff">send</text>
+  <text x="401" y="236" font-family="'Courier New',monospace" font-size="11" fill="#e2e8f0">(</text>
+  <text x="408" y="236" font-family="'Courier New',monospace" font-size="11" fill="#c792ea">new</text>
+  <text x="430" y="236" font-family="'Courier New',monospace" font-size="11" fill="#82aaff"> PutObjectCommand</text>
+  <text x="565" y="236" font-family="'Courier New',monospace" font-size="11" fill="#e2e8f0">({</text>
+
+  <text x="265" y="252" font-family="'Courier New',monospace" font-size="11" fill="#e2e8f0">      Bucket: bucket, Key: key, Body: body,</text>
+  <text x="265" y="268" font-family="'Courier New',monospace" font-size="11" fill="#e2e8f0">      ContentType: contentType ?? </text>
+  <text x="490" y="268" font-family="'Courier New',monospace" font-size="11" fill="#c3e88d">"application/octet-stream"</text>
+  <text x="648" y="268" font-family="'Courier New',monospace" font-size="11" fill="#e2e8f0">,</text>
+
+  <text x="265" y="284" font-family="'Courier New',monospace" font-size="11" fill="#e2e8f0">    }));</text>
+  <text x="265" y="300" font-family="'Courier New',monospace" font-size="11" fill="#c792ea">    return</text>
+  <text x="316" y="300" font-family="'Courier New',monospace" font-size="11" fill="#e2e8f0"> </text>
+  <text x="322" y="300" font-family="'Courier New',monospace" font-size="11" fill="#c3e88d">`https://${bucket}.s3.amazonaws.com/${key}`</text>
+  <text x="618" y="300" font-family="'Courier New',monospace" font-size="11" fill="#e2e8f0">;</text>
+
+  <text x="265" y="316" font-family="'Courier New',monospace" font-size="11" fill="#e2e8f0">  } </text>
+  <text x="289" y="316" font-family="'Courier New',monospace" font-size="11" fill="#c792ea">catch</text>
+  <text x="324" y="316" font-family="'Courier New',monospace" font-size="11" fill="#e2e8f0"> (err) {</text>
+
+  <text x="265" y="332" font-family="'Courier New',monospace" font-size="11" fill="#e2e8f0">    </text>
+  <text x="289" y="332" font-family="'Courier New',monospace" font-size="11" fill="#c792ea">throw</text>
+  <text x="325" y="332" font-family="'Courier New',monospace" font-size="11" fill="#82aaff"> wrapAwsError</text>
+  <text x="419" y="332" font-family="'Courier New',monospace" font-size="11" fill="#e2e8f0">(err </text>
+  <text x="449" y="332" font-family="'Courier New',monospace" font-size="11" fill="#c792ea">as</text>
+  <text x="465" y="332" font-family="'Courier New',monospace" font-size="11" fill="#ffcb6b"> Error</text>
+  <text x="498" y="332" font-family="'Courier New',monospace" font-size="11" fill="#e2e8f0">, </text>
+  <text x="510" y="332" font-family="'Courier New',monospace" font-size="11" fill="#c3e88d">"uploadFile failed"</text>
+  <text x="635" y="332" font-family="'Courier New',monospace" font-size="11" fill="#e2e8f0">);</text>
+
+  <text x="265" y="348" font-family="'Courier New',monospace" font-size="11" fill="#e2e8f0">  }</text>
+  <text x="265" y="364" font-family="'Courier New',monospace" font-size="11" fill="#e2e8f0">}</text>
+
+  <!-- Zod schema section -->
+  <text x="265" y="396" font-family="'Courier New',monospace" font-size="11" fill="#546e7a">/** Zod schema for S3 upload result. */</text>
+  <text x="265" y="412" font-family="'Courier New',monospace" font-size="11" fill="#c792ea">export const</text>
+  <text x="345" y="412" font-family="'Courier New',monospace" font-size="11" fill="#82aaff"> UploadResultSchema</text>
+  <text x="480" y="412" font-family="'Courier New',monospace" font-size="11" fill="#e2e8f0"> = z.</text>
+  <text x="505" y="412" font-family="'Courier New',monospace" font-size="11" fill="#82aaff">object</text>
+  <text x="543" y="412" font-family="'Courier New',monospace" font-size="11" fill="#e2e8f0">({</text>
+  <text x="265" y="428" font-family="'Courier New',monospace" font-size="11" fill="#e2e8f0">  url: z.</text>
+  <text x="316" y="428" font-family="'Courier New',monospace" font-size="11" fill="#82aaff">string</text>
+  <text x="354" y="428" font-family="'Courier New',monospace" font-size="11" fill="#e2e8f0">(), bucket: z.</text>
+  <text x="444" y="428" font-family="'Courier New',monospace" font-size="11" fill="#82aaff">string</text>
+  <text x="482" y="428" font-family="'Courier New',monospace" font-size="11" fill="#e2e8f0">(), key: z.</text>
+  <text x="548" y="428" font-family="'Courier New',monospace" font-size="11" fill="#82aaff">string</text>
+  <text x="586" y="428" font-family="'Courier New',monospace" font-size="11" fill="#e2e8f0">(),</text>
+  <text x="265" y="444" font-family="'Courier New',monospace" font-size="11" fill="#e2e8f0">  etag: z.</text>
+  <text x="317" y="444" font-family="'Courier New',monospace" font-size="11" fill="#82aaff">string</text>
+  <text x="355" y="444" font-family="'Courier New',monospace" font-size="11" fill="#e2e8f0">().</text>
+  <text x="370" y="444" font-family="'Courier New',monospace" font-size="11" fill="#82aaff">optional</text>
+  <text x="418" y="444" font-family="'Courier New',monospace" font-size="11" fill="#e2e8f0">(), sizeBytes: z.</text>
+  <text x="530" y="444" font-family="'Courier New',monospace" font-size="11" fill="#82aaff">number</text>
+  <text x="575" y="444" font-family="'Courier New',monospace" font-size="11" fill="#e2e8f0">().</text>
+  <text x="590" y="444" font-family="'Courier New',monospace" font-size="11" fill="#82aaff">optional</text>
+  <text x="638" y="444" font-family="'Courier New',monospace" font-size="11" fill="#e2e8f0">(),</text>
+  <text x="265" y="460" font-family="'Courier New',monospace" font-size="11" fill="#e2e8f0">});</text>
+
+  <!-- Status bar -->
+  <rect x="221" y="508" width="739" height="24" fill="#0d1025"/>
+  <rect x="221" y="508" width="1" height="24" fill="#2a2a4a"/>
+
+  <!-- Status bar badges -->
+  <rect x="230" y="512" width="68" height="14" rx="3" fill="url(#aws-hero-badge-green)"/>
+  <text x="264" y="522" font-family="'Segoe UI',sans-serif" font-size="9" fill="#6ee7b7" text-anchor="middle">TypeScript 5.6</text>
+
+  <rect x="306" y="512" width="70" height="14" rx="3" fill="url(#aws-hero-badge-orange)"/>
+  <text x="341" y="522" font-family="'Segoe UI',sans-serif" font-size="9" fill="#fdba74" text-anchor="middle">AWS SDK v3</text>
+
+  <rect x="384" y="512" width="58" height="14" rx="3" fill="url(#aws-hero-badge-blue)"/>
+  <text x="413" y="522" font-family="'Segoe UI',sans-serif" font-size="9" fill="#93c5fd" text-anchor="middle">Zod v3.23</text>
+
+  <text x="720" y="522" font-family="'Segoe UI',sans-serif" font-size="9" fill="#475569">135 modules · 2,800+ functions · Node 18+</text>
+
+  <!-- Scrollbar -->
+  <rect x="951" y="68" width="8" height="440" fill="#1e293b" rx="4"/>
+  <rect x="952" y="100" width="6" height="80" fill="#334155" rx="3"/>
+</svg>

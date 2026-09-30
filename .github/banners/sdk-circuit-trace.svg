@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="120" viewBox="0 0 800 120">
+  <defs>
+    <linearGradient id="aws-proj-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a0a00"/>
+      <stop offset="50%" stop-color="#1f1200"/>
+      <stop offset="100%" stop-color="#1a0a00"/>
+    </linearGradient>
+    <linearGradient id="aws-proj-trace" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ff9900" stop-opacity="0"/>
+      <stop offset="30%" stop-color="#ff9900" stop-opacity="0.8"/>
+      <stop offset="70%" stop-color="#ffbb44" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#ff9900" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="aws-proj-glow">
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="aws-proj-glow-sm">
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="120" fill="url(#aws-proj-bg)"/>
+
+  <!-- Circuit traces left side -->
+  <line x1="0" y1="20" x2="160" y2="20" stroke="#ff9900" stroke-width="1" opacity="0.3"/>
+  <line x1="40" y1="20" x2="40" y2="50" stroke="#ff9900" stroke-width="1" opacity="0.3"/>
+  <line x1="40" y1="50" x2="100" y2="50" stroke="#ff9900" stroke-width="1" opacity="0.3"/>
+  <line x1="100" y1="50" x2="100" y2="90" stroke="#ff9900" stroke-width="1" opacity="0.3"/>
+  <line x1="0" y1="90" x2="160" y2="90" stroke="#ff9900" stroke-width="1" opacity="0.3"/>
+  <line x1="70" y1="90" x2="70" y2="110" stroke="#ff9900" stroke-width="1" opacity="0.3"/>
+  <line x1="130" y1="20" x2="130" y2="40" stroke="#ff9900" stroke-width="1" opacity="0.3"/>
+  <line x1="130" y1="40" x2="160" y2="40" stroke="#ff9900" stroke-width="1" opacity="0.3"/>
+
+  <!-- Circuit traces right side -->
+  <line x1="640" y1="20" x2="800" y2="20" stroke="#ff9900" stroke-width="1" opacity="0.3"/>
+  <line x1="760" y1="20" x2="760" y2="50" stroke="#ff9900" stroke-width="1" opacity="0.3"/>
+  <line x1="700" y1="50" x2="760" y2="50" stroke="#ff9900" stroke-width="1" opacity="0.3"/>
+  <line x1="700" y1="50" x2="700" y2="90" stroke="#ff9900" stroke-width="1" opacity="0.3"/>
+  <line x1="640" y1="90" x2="800" y2="90" stroke="#ff9900" stroke-width="1" opacity="0.3"/>
+  <line x1="730" y1="90" x2="730" y2="110" stroke="#ff9900" stroke-width="1" opacity="0.3"/>
+  <line x1="670" y1="20" x2="670" y2="40" stroke="#ff9900" stroke-width="1" opacity="0.3"/>
+  <line x1="640" y1="40" x2="670" y2="40" stroke="#ff9900" stroke-width="1" opacity="0.3"/>
+
+  <!-- Circuit junction dots left -->
+  <circle cx="40" cy="20" r="3" fill="#ff9900" opacity="0.4" filter="url(#aws-proj-glow-sm)">
+    <animate attributeName="opacity" values="0.2;0.9;0.2" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="100" cy="50" r="3" fill="#ffbb44" opacity="0.4" filter="url(#aws-proj-glow-sm)">
+    <animate attributeName="opacity" values="0.2;0.8;0.2" dur="2.5s" begin="0.4s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="70" cy="90" r="3" fill="#ff9900" opacity="0.4" filter="url(#aws-proj-glow-sm)">
+    <animate attributeName="opacity" values="0.2;0.9;0.2" dur="1.8s" begin="0.8s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="130" cy="40" r="3" fill="#ffbb44" opacity="0.4" filter="url(#aws-proj-glow-sm)">
+    <animate attributeName="opacity" values="0.15;0.7;0.15" dur="3s" begin="1.2s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Circuit junction dots right -->
+  <circle cx="760" cy="20" r="3" fill="#ff9900" opacity="0.4" filter="url(#aws-proj-glow-sm)">
+    <animate attributeName="opacity" values="0.2;0.9;0.2" dur="2.1s" begin="0.5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="700" cy="50" r="3" fill="#ffbb44" opacity="0.4" filter="url(#aws-proj-glow-sm)">
+    <animate attributeName="opacity" values="0.2;0.8;0.2" dur="2.3s" begin="0.9s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="730" cy="90" r="3" fill="#ff9900" opacity="0.4" filter="url(#aws-proj-glow-sm)">
+    <animate attributeName="opacity" values="0.2;0.9;0.2" dur="1.9s" begin="1.3s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="670" cy="40" r="3" fill="#ffbb44" opacity="0.4" filter="url(#aws-proj-glow-sm)">
+    <animate attributeName="opacity" values="0.15;0.7;0.15" dur="2.7s" begin="0.2s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Animated trace sweeping across top -->
+  <rect x="0" y="19" width="120" height="2" fill="url(#aws-proj-trace)">
+    <animate attributeName="x" values="-120;800" dur="3s" repeatCount="indefinite"/>
+  </rect>
+  <!-- Animated trace sweeping across bottom -->
+  <rect x="0" y="89" width="120" height="2" fill="url(#aws-proj-trace)">
+    <animate attributeName="x" values="800;-120" dur="3.5s" begin="1s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Text overlay background -->
+  <rect x="175" y="28" width="450" height="65" rx="8" fill="#000000" opacity="0.5"/>
+
+  <!-- Project name -->
+  <text x="400" y="57" font-family="'Segoe UI',sans-serif" font-size="30" font-weight="700"
+        fill="#ff9900" text-anchor="middle" letter-spacing="4" filter="url(#aws-proj-glow)">
+    aws-util<animate attributeName="opacity" values="0;1" dur="1s" fill="freeze"/>
+  </text>
+  <!-- Tagline -->
+  <text x="400" y="82" font-family="'Segoe UI',sans-serif" font-size="12"
+        fill="#ffcc77" text-anchor="middle" letter-spacing="1">
+    TypeScript SDK for 135+ AWS service modules<animate attributeName="opacity" values="0;1" begin="0.6s" dur="0.8s" fill="freeze"/>
+  </text>
+</svg>
